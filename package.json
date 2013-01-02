@@ -6,7 +6,7 @@
   "main": "./lib/middleware",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/http-server.git"
+    "url": "https://github.com/Jhsto/no-js-analytics.git"
   },
   "keywords": [
     "analytics",
