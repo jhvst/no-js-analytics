@@ -78,16 +78,13 @@ app.configure(function(){
    Writes the current data of db object into a new .txt file in ./analytics-logs
 ###analytics.stats()
    Renders the current data of db object in JSON format. For an example, you might want to show the data in /analytics page, which can easily be achieved as below.
-   ```
-   app.get('/analytics', function(req, res){
-   res.send(200, analytics.stats());
-   });
-   ```
-
-Top of these methods no-js-analytics automatically saves visitor information into a text file every two hours, as declared in milliseconds in lib/middleware.js on line 114. Below it you can also find the default interval of db flush, which is set to happen once in a day.
-
-###Contributing
-   Feel free to contribute new features, bug fixes or to my code syntax.
+```
+app.get('/analytics', function(req, res){
+res.send(200, analytics.stats());
+});
+```
+###Defaults
+   Top of these methods no-js-analytics automatically saves visitor information into a text file every two hours, declared in milliseconds at lib/middleware.js on line 114. Below it you can also find the default interval of db flush, which is set to happen once in a day.
 
 ###To-do
 1. Returning and new visitor counters
