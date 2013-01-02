@@ -1,5 +1,5 @@
 {
-  "name": "no-js analytics",
+  "name": "no-js-analytics",
   "version": "0.1.0",
   "author": "Juuso Haavisto <juuso@mail.com>",
   "description": "Really basic visitor analytics for speed demons using express.",
