@@ -91,7 +91,7 @@ Top of these methods no-js-analytics automatically saves visitor information int
 
 ###To-do
 1. Returning and new visitor counters
-2. Some nice way to represent the data and more robust data structure
+2. Some nice way to represent the data
 3. More analytic features
 4. Spread to additional frameworks and languages
 5. World domination and bye-bye to formal javascript analytics
