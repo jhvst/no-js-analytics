@@ -56,12 +56,12 @@ no-js-analytics is really basic visitor analytics for people not so interested i
 ```
 
 ##Tests
-   I made two tests locally on the default express page and below are the results.
-   [google analytics](http://snag.gy/WFO8T.jpg)
+   I made two tests locally on the default express page and below are the results.  
+   [google analytics](http://snag.gy/WFO8T.jpg)  
    [no-js-analytics](http://snag.gy/qctlQ.jpg)
 
 ##Installation:   
-1. ```$ npm install jaudu```
+1. ```$ npm install no-js-analytics```
 
 ##Usage:
 ```javascript
