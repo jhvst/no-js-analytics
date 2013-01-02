@@ -1,12 +1,12 @@
 {
-  "name": "no-js-analytics",
-  "version": "0.1.0",
+  "name": "no-js analytics",
+  "version": "0.1.1",
   "author": "Juuso Haavisto <juuso@mail.com>",
   "description": "Really basic visitor analytics for speed demons using express.",
   "main": "./lib/middleware",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jhsto/no-js-analytics.git"
+    "url": "https://github.com/nodejitsu/http-server.git"
   },
   "keywords": [
     "analytics",
