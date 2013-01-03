@@ -79,7 +79,7 @@ app.get('/analytics', function(req, res){
 });
 ```
 ###Defaults
-   Top of these methods no-js-analytics automatically saves visitor information into a text file every two hours, declared in milliseconds at lib/middleware.js on line 114. Below it you can also find the default interval of db flush, which is set to happen once in a day.
+   Top of these methods no-js-analytics automatically saves visitor information into a text file every two hours, declared in milliseconds at lib/middleware.js. Below it you can also find the default interval of db flush, which is set to happen once in a day.
 
 ###To-do
 1. Returning and new visitor counters
