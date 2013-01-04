@@ -65,7 +65,7 @@ no-js-analytics is really basic visitor analytics for people not so interested i
 var analytics = require('no-js-analytics');
 
 app.configure(function(){
-  ... (all your express configuration)
+  ... (start of your express configuration)
 
   app.use(express.bodyParser());
   // Add analytics below express.bodyParser()
