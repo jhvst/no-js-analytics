@@ -54,7 +54,8 @@ no-js-analytics is really basic visitor analytics for people not so interested i
 ##Tests
    I made two tests locally on the default express page and below are the results.  
    [google analytics](http://snag.gy/WFO8T.jpg)  
-   [no-js-analytics](http://snag.gy/qctlQ.jpg)
+   [no-js-analytics](http://snag.gy/qctlQ.jpg)  
+   As you can see, the amount of requests went down by 4 and the overall response time reduced by 150ms - **locally**.
 
 ##Installation:   
 ```$ npm install no-js-analytics```
