@@ -66,7 +66,12 @@ var analytics = require('no-js-analytics');
 
 app.configure(function(){
   ... (all your express configuration)
+
+  app.use(express.bodyParser());
+  // Add analytics below express.bodyParser()
   app.use(analytics);
+
+  ... (rest of your configurstion)
 });
 ```
 
