@@ -1,6 +1,6 @@
 {
   "name": "no-js-analytics",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Juuso Haavisto <juuso@mail.com>",
   "description": "Really basic visitor analytics for speed demons using express.",
   "main": "./lib/middleware",
