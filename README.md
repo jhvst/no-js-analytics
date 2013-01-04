@@ -1,4 +1,5 @@
 #no-js-analytics
+##simple analytics middleware for [express](http://expressjs.com/)
 
 no-js-analytics is really basic visitor analytics for people not so interested in nice graphs and stuff like that, but ho would like to instead trade those few requests and page loading time for something more useful. no-js-analytics works even if a visitor does not have javascript enabled, which some may find self esteem improving, because all those security paranoids running noscript will be caught too. no-js-analytics also saves statics of any call to API's and alike, without messing response data. no-js-analytics requires no database, because all visitor statics are held in **object**, geniously named as db. This makes no-js-analytics easy to adopt and the basic fundamental of speed is met, as the fact that visitor data will be lost in case of server crash or restart. Anyhow, the object containing the visitor statics is saved every two hours (by default) into logs, but no-js-analytics provides an easy way to expose that data in nice JSON format to anywhere you like using the analytics.stats() method. Here is an example output:
 
