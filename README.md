@@ -71,7 +71,7 @@ app.configure(function(){
   // Add analytics below express.bodyParser()
   app.use(analytics);
 
-  ... (rest of your configurstion)
+  ... (rest of your configuration)
 });
 ```
 
