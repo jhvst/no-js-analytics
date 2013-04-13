@@ -95,6 +95,7 @@ app.get('/analytics', function(req, res){
 2. Some nice way to represent the data and more robust data structure (Polychart.js?)
 3. More features in general
 1004. Spread to additional frameworks and languages
+
 1337 * 10⁹. World domination and bye-bye to formal client-side javascript analytics
 
 ###License (MIT)
