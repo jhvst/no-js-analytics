@@ -1,7 +1,9 @@
 #no-js-analytics
 ##simple analytics middleware for [express](http://expressjs.com/)
 
-no-js-analytics is really basic visitor analytics for people not so interested in nice graphs and stuff like that, but ho would like to instead trade those few requests and page loading time for something more useful. no-js-analytics works even if a visitor does not have javascript enabled, which some may find self esteem improving, because all those security paranoids running noscript will be caught too. no-js-analytics also saves statics of any call to API's and alike, without messing response data. no-js-analytics requires no database, because all visitor statics are held in **object**, geniously named as db. This makes no-js-analytics easy to adopt and the basic fundamental of speed is met, as the fact that visitor data will be lost in case of server crash or restart. Anyhow, the object containing the visitor statics is saved every two hours (by default) into logs, but no-js-analytics provides an easy way to expose that data in nice JSON format to anywhere you like using the analytics.stats() method. Here is an example output:
+no-js-analytics is a basic visitor analytics for people interested in trading the speed of server-side for fewer analytical features.
+
+no-js-analytics works even if visitor does not have javascript enabled, which results in logging all those security paranoids running noscript too. no-js-analytics saves statics of any call to API's and alike, without messing response data. no-js-analytics requires no database, because all visitor statics are held in **object**, ingeniously named as db. This makes no-js-analytics easy to adopt and the basic fundamental of speed is met. On the downside all visitor statics will be lost in case of server crash. Because of this, the object containing the statics is saved every two hours (by default) into logs and no-js-analytics also provides an easy way to express that data in a nice JSON format with the analytics.stats() method. Here is an example output:
 
 ```
 {
@@ -86,14 +88,14 @@ app.get('/analytics', function(req, res){
 });
 ```
 ###Defaults
-   Top of these methods no-js-analytics automatically saves visitor information into a text file every two hours, declared in milliseconds at lib/middleware.js. Below it you can also find the default interval of db flush, which is set to happen once in a day.
+   Top of these methods no-js-analytics automatically saves visitor information into a text file every two hours, declared in milliseconds at lib/middleware.js. There you can also find the default interval of database flush, which is set to happen once in a day.
 
 ###To-do
 1. Returning and new visitor counters
-2. Some nice way to represent the data and more robust data structure
-3. More analytic features
-4. Spread to additional frameworks and languages
-5. World domination and bye-bye to formal javascript analytics
+2. Some nice way to represent the data and more robust data structure (Polychart.js?)
+3. More features in general
+1004. Spread to additional frameworks and languages
+1337 * 10⁹. World domination and bye-bye to formal client-side javascript analytics
 
 ###License (MIT)
    Copyright (c) 2013 Juuso Haavisto <juuso@mail.com>
